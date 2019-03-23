@@ -1,0 +1,36 @@
+{
+
+    "manifest_version": 2,
+    "name": "Who visited",
+    "version": "1.0.0",
+ 
+    "description": "This extension will list persons who visited your wall on facebook.",
+    "icons": {
+        "16": "img/who.png"     
+      },
+
+    "author": "lhsang",
+
+    "browser_action": {
+      "default_icon": {                   
+        "16": "img/who.png",          
+        "24": "img/who.png"         
+      },
+      "default_title": "Who visited",   
+      "default_popup": "html/popup.html"    
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.facebook.com/*"],
+        "js": ["js/crawl.js","js/popup.js","js/crawl.js"]
+      }
+    ],
+    "permissions": [
+      "activeTab",
+      "tabs", "<all_urls>",
+      "webNavigation"
+  ]
+
+           
+    
+  }
