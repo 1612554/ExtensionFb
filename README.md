@@ -17,4 +17,13 @@ function crawl(){
 
 ```
 
+## How to add this extension for chrome ?
+```
+
+1. Get project: git clone [](https://github.com/1612554/ExtensionFb.git) or download [here](https://codeload.github.com/1612554/ExtensionFb/zip/master)
+2. Turn on Developer mode in chrome
+3. Load unpacked from this folder ExtensionFb which downloaded
+
+```
+
 >> building ...
