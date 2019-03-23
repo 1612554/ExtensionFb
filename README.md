@@ -2,7 +2,7 @@
 
 * This extension will list persons who visited your wall on facebook.
 
-> ./crawl.js
+> ./js/crawl.js
 
 * This file include scripts to crawl data from facebook.
 
