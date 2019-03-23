@@ -23,7 +23,9 @@ function crawl(){
 git clone https://github.com/1612554/ExtensionFb.git
 ```
 or download [here](https://codeload.github.com/1612554/ExtensionFb/zip/master)
+
 2. Turn on Developer mode in chrome
+
 3. Load unpacked from this folder ExtensionFb which downloaded
 
 ```
